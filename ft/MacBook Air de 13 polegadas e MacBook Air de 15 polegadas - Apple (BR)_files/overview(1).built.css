@@ -1,0 +1,142 @@
+/* Local Overrides */
+
+/* padding-bottom mobile */
+
+@media only screen and (max-width: 420px) {
+	html.enhance-xp .section-hero .sticky-container .sticky-content {
+		padding-bottom: 462px;
+	}
+}
+
+/* messaging br */
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-hero .hero-copy-wrapper .macbook-air-13-and-15-global-avail br {
+		display: block;
+	}
+
+	.section-hero
+		.hero-copy-wrapper
+		.macbook-air-13-and-15-global-avail
+		.customized-bar {
+		display: none;
+	}
+}
+
+/* Modal - Button */
+@media only screen and (max-width: 483px) {
+	article.section-performance .modal-trigger-container .button {
+		padding-left: 17px;
+		padding-right: 17px;
+	}
+}
+
+/* Design section */
+@media only screen and (max-width: 734px) {
+	article.section-design .subsection-size .size-labels .size {
+		margin-inline: 26px;
+	}
+}
+
+/* pricing lowercase removal */
+
+.section-hero .hero-copy-wrapper .hero-pricing span[data-pricing-product] {
+	text-transform: none;
+}
+
+/* Environment Headline */
+@media only screen and (min-width: 1069px) {
+	.section-routers .router-item-environment .router-item-headline {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 431px;
+	}
+}
+
+/* AR padding */
+@media only screen and (max-width: 1068px) and (min-width: 735px) {
+	.section-routers .router-item-augmented-reality {
+		padding-top: 150px;
+	}
+	.section-routers .router-item-augmented-reality .ar-wrapper-content {
+		padding-top: 0px;
+		margin-top: -70px;
+	}
+	.section-routers .captions-gallery .ar-link .link-wrap {
+		display: none;
+	}
+}
+
+/* Router - Compare */
+@media only screen and (min-width: 1069px) {
+	.section-routers .section-compare .product-pricing {
+		max-width: 176px;
+	}
+}
+
+/* ----- local screens ----- */
+/* environment */
+.section-routers .accent-green:before {
+	width: 190px;
+	height: 60px;
+	background-size: 190px 60px;
+	background-image: url("/br/macbook-air/images/overview/routers/environment_highlight__edulvmndbz42_large.png");
+}
+@media (-webkit-min-device-pixel-ratio: 1.5),
+	(min-resolution: 144dpi),
+	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-resolution: 1.5dppx) {
+	.section-routers .accent-green:before {
+		background-image: url("/br/macbook-air/images/overview/routers/environment_highlight__edulvmndbz42_large_2x.png");
+	}
+}
+.section-routers .router-item-environment .accent-green:before {
+	bottom: -6px;
+	left: -14px;
+}
+@media only screen and (max-width: 1068px) {
+	.section-routers .accent-green:before {
+		width: 158px;
+		height: 49px;
+		background-size: 158px 49px;
+		background-image: url("/br/macbook-air/images/overview/routers/environment_highlight__edulvmndbz42_medium.png");
+	}
+}
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-routers .accent-green:before {
+		background-image: url("/br/macbook-air/images/overview/routers/environment_highlight__edulvmndbz42_medium_2x.png");
+	}
+}
+@media only screen and (max-width: 1068px) {
+	.section-routers .router-item-environment .accent-green:before {
+		left: -10px;
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-routers .accent-green:before {
+		width: 123px;
+		height: 40px;
+		background-size: 123px 40px;
+		background-image: url("/br/macbook-air/images/overview/routers/environment_highlight__edulvmndbz42_small.png");
+	}
+}
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+	only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-routers .accent-green:before {
+		background-image: url("/br/macbook-air/images/overview/routers/environment_highlight__edulvmndbz42_small_2x.png");
+	}
+}
+@media only screen and (max-width: 734px) {
+	.section-routers .router-item-environment .accent-green:before {
+		bottom: -3px;
+		left: -8px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.typography-custom-tile-subhead-large {
+		font-size: 28px;
+	}
+}
