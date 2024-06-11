@@ -65,7 +65,7 @@ nav strong > a:hover {
     color: var(--color4);
 }
 div {
-    display: inline-block;
+    display:flex;
 }
 .tenis {
     padding-top: 20px;
