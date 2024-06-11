@@ -73,7 +73,7 @@ div {
 .divone {
     margin-top: 10px;
     margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
 
     display: inline-block;
     position: absolute;
@@ -95,9 +95,17 @@ div {
     height: 300px;
     width: 400px;
 
-   margin-left: 400px;
+   margin-left: 570px;
    margin-top: 10px;
-
-
+}
+.divtree{
+   
+    margin-left: 970px;
+    margin-top: 10px;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color0);
 }
     
