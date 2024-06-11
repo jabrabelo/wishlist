@@ -21,6 +21,8 @@
 body {
     background-color: white;
     
+    margin: 0px;
+    
 }
 header {
     background-color: var(--color3);
@@ -49,8 +51,6 @@ header > p {
 nav {
     background-color: var(--color3);
     margin-top: -20px;
-    margin-left: -8px;
-    margin-right: -8px;
     padding-top: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -65,7 +65,7 @@ nav strong > a:hover {
     color: var(--color4);
 }
 div {
-    display:flex;
+    display:inline-block;
 }
 .tenis {
     padding-top: 20px;
